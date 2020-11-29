@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 763}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 1107381028644852460, guid: 1ace2f22cb8be4349a8dc711ce14f670, type: 2}
+    - {fileID: 8282353761324167573, guid: bac8afb37d63cf64cbf783fd5c22b108, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -354,10 +354,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 1ace2f22cb8be4349a8dc711ce14f670,
+  m_AnimatorController: {fileID: 9100000, guid: bac8afb37d63cf64cbf783fd5c22b108,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107381028644852460, guid: 1ace2f22cb8be4349a8dc711ce14f670,
+  - m_Target: {fileID: 8282353761324167573, guid: bac8afb37d63cf64cbf783fd5c22b108,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -394,12 +394,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 437
-    width: 1083
+    width: 933
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14576
+  m_LastSelectedObjectID: 148312
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -523,7 +523,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5efbffff
+      m_ExpandedIDs: 3673fdff4a73fdff3a74fdff4274fdff4e74fdff5e74fdff6674fdffa474fdff6875fdffb47bfdff707cfdff9e7ffdff2080fdffa682fdff8e83fdffe284fdff1e85fdff4085fdff3687fdff4a88fdff8a8bfdff0a8cfdffb28cfdffc88dfdffd48ffdffca90fdff7e95fdff5496fdfff297fdff3c98fdff5098fdff5298fdff5698fdff5a98fdff5e98fdff6298fdffe699fdff109cfdff5e9cfdff729cfdff749cfdff789cfdff7c9cfdff809cfdff849cfdff069dfdff7c9dfdff909dfdff7a9efdff7e9efdff849efdff889efdff8e9efdfffca2fdff30c1fdff78c1fdff92c7fdffd4c7fdff50c9fdff84c9fdff96c9fdff84cafdff8ccafdff96cafdffa6cafdffaecafdffe6cafdfff4cbfdffdaccfdff68cdfdff1ccffdff46d0fdff48d1fdff88d3fdff94d4fdffe8d4fdffd6e3fdff08e4fdffaaeafdffbeeafdffaaebfdffb2ebfdffbaebfdffcaebfdffd2ebfdff64effdff520bfeffe80cfeff160dfeff820ffeff3015feff7416feff482efeff1643feff3a5ffeff0e60feffbe63feffce65feffb066feffd46efeffd66efeffe06efefff26efeffb6a9feffa6b4feffc8b5feff0ab6feff00c9feff42cafeffd8cbfefff6cbfeff40cdfeff74cdfeff26d0feff80d2feffb0d2fefffce3fefffee3feff02e4feff06e4feff0ae4feff0ee4feff12e4feffb0e4feff5cfafeff10fbfeff1efbfeffc8fcfeffc602ffff2a05ffffdc06ffff0407ffffac07ffffc407ffffea0bffffae0dffff060effffc222ffff9233ffffb833ffff8634ffffa234ffffde39ffffc23affffde42ffff0e43ffff1c43ffff3243ffffee43ffff1e44ffff1446ffff2a57ffffce5bffffa46cffffb46cffff9a70ffff4271ffffe276ffff2c77ffff6c9fffff20a2ffff5efbffff00000000026100003a68000042680000f8730000d47700008a7a0000c08300008c9d00009c9d00003a9e00001ca8000084a8000012b8000062b800006cb8000076b8000096b80000a0b80000aab80000ccb800007ec500008ac5000062cd0000bccd0000f4cd0000bae100002ee2000022eb000014ed00001eed0000daee00006eef0000b4f10000ccf100000af2000012f2000058f200006ef200007ef2000086f200008ef20000280801004a0801005c080100560f0100481101006a130100941a0100a21a0100c81a0100481b01005a1b01006a1b01001a22010028220100382201007e2201008e22010096220100a4220100b0220100ba220100762601008c2601009c260100a4260100ba26010076270100942701002c3201002e3c01004c3c01007c3c010008400100464001007e4001004a41010082410100885a0100985a0100be5a01002c5b0100485b0100505b0100625b01004e6601005e66010016670100226a0100366a01004e6a01005c6a01006c6a0100ce6a0100f66a0100b07401001a770100547801003886010076860100ae8601004c8801006a880100a2880100668b01007299010090990100c8990100baa40100e4a40100f2a4010020a60100bea80100e8a8010082af0100baaf0100c6af0100cacb01000acc01001ccc010042de01007ade01009adf0100c4df0100d4df010034e001005ee001007ae00100f4e00100d8ff0100e6ff01001200020056000200fc0002005c010200aa050200ee05020090060200940602002e2602007226020096330200d0330200c43f020008400200e65c0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -583,9 +583,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -15.501562, y: 1.0519884, z: -56.367138}
+    m_Target: {x: 324.85233, y: 116.63947, z: -439.84375}
     speed: 2
-    m_Value: {x: -15.501562, y: 1.0519884, z: -56.367138}
+    m_Value: {x: 324.85233, y: 116.63947, z: -439.84375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -635,9 +635,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 26.6747
+    m_Target: 216.77249
     speed: 2
-    m_Value: 26.6747
+    m_Value: 216.77249
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -727,20 +727,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\raulv\Desktop\Rotate
+  m_LastProjectPath: C:\Users\raulv\Desktop\CRAZYMAZE\CRAZYMAZE\Rotate
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42390000
-    m_LastClickedID: 14658
-    m_ExpandedIDs: 0000000000ca9a3b
+    m_SelectedIDs: 44390000
+    m_LastClickedID: 14660
+    m_ExpandedIDs: 000000003a39000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -846,9 +846,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 437
+    y: 515
     width: 933
-    height: 250
+    height: 172
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:
