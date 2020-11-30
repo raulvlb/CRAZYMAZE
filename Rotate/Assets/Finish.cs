@@ -7,11 +7,17 @@ public class Finish : MonoBehaviour
 
     //public Transform player;
     public LayerMask end;
+    public LayerMask tp1;
+
+    public Transform tp2;
 
     public float radius = 1f;
 
     public bool isend = false;
+    public bool teleported = false;
     public bool fase = true;
+
+    public Transform somend;
 
     public GameObject score;
     public GameObject pause;
@@ -31,9 +37,17 @@ public class Finish : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         isend = Physics2D.OverlapCircle(transform.position, radius ,end);
 
+        teleported = Physics2D.OverlapCircle(transform.position, radius ,tp1);
+
+        if(teleported){
+            transform.position = tp2.transform.position;
+        }
+
         if(isend && fase){
+            somend.GetComponent<AudioSource>().enabled = true;
             pause.GetComponent<PauseMenu>().enabled = false;
             tempo.GetComponent<Tempo>().enabled = false;
             particulasend.SetActive(false);

@@ -10,6 +10,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject comands;
 
+    public Animator transition;
+
     // Update is called once per frame
     void Start(){
     }
@@ -42,20 +44,16 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 
-    // public void LoadMenu()
-    // {
-    //     Time.timeScale = 1f;
-    //     SceneManager.LoadScene("Level");
-    // }
-
     public void Menu()
     {
+        transition.SetTrigger("start");
         Time.timeScale = 1f;
         SceneManager.LoadScene("Level");
     }
 
     public void Retry1()
     {
+        transition.SetTrigger("start");
         Time.timeScale = 1f;
         SceneManager.LoadScene("Level1");
         
@@ -63,15 +61,41 @@ public class PauseMenu : MonoBehaviour
 
     public void Retry2()
     {
+        transition.SetTrigger("start");
         Time.timeScale = 1f;
         SceneManager.LoadScene("Level2");
         
     }
 
-    // public void Quit()
-    // {
-    //     SceneManager.LoadScene("Menu");
-    //     //Debug.Log("Menu");
-    //     Application.Quit();
-    // }
+    public void Retry3()
+    {
+        transition.SetTrigger("start");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level3");
+        
+    }
+
+    public void Retry4()
+    {
+        transition.SetTrigger("start");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level4");
+        
+    }
+
+    public void Retry5()
+    {
+        transition.SetTrigger("start");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level5");
+        
+    }
+
+    public void Retry6()
+    {
+        transition.SetTrigger("start");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level6");
+        
+    }
 }
