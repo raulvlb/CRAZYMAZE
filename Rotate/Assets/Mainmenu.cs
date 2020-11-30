@@ -33,4 +33,19 @@ public class Mainmenu : MonoBehaviour
         SceneManager.LoadScene("Level2");
     }
 
+    public void Play3()
+    {
+        SceneManager.LoadScene("Level3");
+    }
+
+    public void Play4()
+    {
+        SceneManager.LoadScene("Level4");
+    }
+
+    public void Play5()
+    {
+        SceneManager.LoadScene("Level5");
+    }
+
 }

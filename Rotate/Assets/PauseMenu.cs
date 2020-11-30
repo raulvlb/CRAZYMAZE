@@ -52,21 +52,20 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Level");
-        Application.Quit();
     }
 
     public void Retry1()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Level1");
-        Application.Quit();
+        
     }
 
     public void Retry2()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Level2");
-        Application.Quit();
+        
     }
 
     // public void Quit()

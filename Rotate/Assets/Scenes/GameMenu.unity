@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.46666667}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -595,7 +595,7 @@ SpriteRenderer:
   m_Size: {x: 0.18, y: 0.18}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &512681487
@@ -609,6 +609,7 @@ GameObject:
   - component: {fileID: 512681488}
   - component: {fileID: 512681490}
   - component: {fileID: 512681489}
+  - component: {fileID: 512681491}
   m_Layer: 5
   m_Name: TITLE
   m_TagString: Untagged
@@ -630,10 +631,10 @@ RectTransform:
   m_Father: {fileID: 351675140}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -164.6, y: 104.09}
-  m_SizeDelta: {x: -361.7727, y: -275.17944}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -165, y: 105}
+  m_SizeDelta: {x: 332.2273, y: 40.820557}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512681489
 MonoBehaviour:
@@ -676,6 +677,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512681487}
   m_CullTransparentMesh: 0
+--- !u!95 &512681491
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512681487}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f6502bca8eecbb04091428ac836125f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &633037616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,7 +1248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Colors:
-  - {r: 0.8207547, g: 0.45871043, b: 0.45296368, a: 0}
+  - {r: 0.45490196, g: 0.81960785, b: 0.73333335, a: 0}
   - {r: 0.81960785, g: 0.6755763, b: 0.45490196, a: 0}
   - {r: 0.6305682, g: 0.7735849, b: 0.4780171, a: 0}
   - {r: 0.8207547, g: 0.6745098, b: 0.45296368, a: 0}
@@ -1537,7 +1557,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

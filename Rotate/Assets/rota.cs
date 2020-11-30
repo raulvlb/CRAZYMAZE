@@ -33,8 +33,16 @@ public class rota : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if(Input.GetButton("Jump")){
-            speed = 5;
+        // if(Input.GetButton("Jump")){
+        //     speed = 10;
+        // }else if(Input.GetButton("Fire3")){
+        //     speed = 40;
+        // }else{
+        //     speed = 20;
+        // }
+
+        if(Input.GetKey(KeyCode.Space)){
+            speed = 10;
         }else{
             speed = 20;
         }

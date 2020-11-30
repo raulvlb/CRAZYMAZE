@@ -17,6 +17,9 @@ public class Finish : MonoBehaviour
     public GameObject pause;
     public GameObject tempo;
     public GameObject particulas;
+    public GameObject particulasend;
+    public GameObject particulastp1;
+    public GameObject particulastp2;
 
 
     // Start is called before the first frame update
@@ -33,6 +36,9 @@ public class Finish : MonoBehaviour
         if(isend && fase){
             pause.GetComponent<PauseMenu>().enabled = false;
             tempo.GetComponent<Tempo>().enabled = false;
+            particulasend.SetActive(false);
+            particulastp1.SetActive(false);
+            particulastp2.SetActive(false);
             particulas.SetActive(true);
             score.SetActive(true);
             Destroy(gameObject);
